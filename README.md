@@ -97,8 +97,6 @@ The system demonstrates the following OOP concepts practically:
 
 ## 📁 Project Structure
 
-Use this **Word-friendly table format**:
-
 ## Project Structure
 
 | Sr. No. | File Name | Purpose |
@@ -178,7 +176,7 @@ Use this **Word-friendly table format**:
 | `├── bills.txt` |
 | `└── rules.txt` |
 
-If you want, I can also give this in **very clean report format paragraph style** ready to paste under heading **“Project Structure”**.
+
 ---
 ## 🚀 How to Run
 
