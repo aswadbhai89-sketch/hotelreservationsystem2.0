@@ -319,6 +319,40 @@ Program Start
              ├── Apply Discount
              └── View Records
 
+## Screenshots
+### Main Screen
+![Main Screen](screenshots/MainScreen.png)
+
+### Guest Login + Welcome
+![Guest Login + Welcome](screenshots/GuestLogin+Welcome.png)
+
+### Guest Registration
+![Guest Registration](screenshots/GuestRegistration.png)
+
+### View Available Rooms
+![View Available Rooms](screenshots/ViewAvailableRooms.png)
+
+### Book a Room
+![Book a Room](screenshots/BookaRoom.png)
+
+### View Bill
+![View Bill](screenshots/ViewBill.png)
+
+### Pay Bill
+![Pay Bill](screenshots/paybill.png)
+
+### Admin Login
+![Admin Login](screenshots/AdminLogin.png)
+
+### Admin Menu
+![Admin Menu](screenshots/AdminMenu.png)
+
+### Admin View All Rooms (Polymorphism)
+![Admin View All Rooms (Polymorphism)](screenshots/AdminViewAllRooms(Polymorphism).png)
+
+### Admin All Bill (Friend Function)
+![Admin All Bill (Friend Function)](screenshots/AdminAllBill(FriendFunction).png)
+
 🐛 Known Issues
 Date format is not validated automatically
 Total days must be entered manually
