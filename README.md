@@ -13,16 +13,21 @@
 
 ## Table of Contents
 
-- [About](#about)
+- [About](#-about)
 - [Screenshots](#screenshots)
-- [Features](#features)
-- [OOP Concepts](#oop-concepts)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [How to Use](#how-to-use)
-- [Default Data](#default-data)
-- [Technical Details](#technical-details)
-- [Authors](#authors)
+- [Features](#-features)
+- [OOP Concepts](#-oop-concepts)
+- [Project Structure](#-project-structure)
+- [How to Run](#-how-to-run)
+- [How to Use](#-how-to-use)
+- [Default Data](#-default-data)
+- [Technical Details](#-technical-details)
+- [System Flow](#-system-flow)
+- [Known Issues](#-known-issues)
+- [Future Enhancements](#-future-enhancements)
+- [Authors](#-authors)
+- [License](#-license)
+- [Acknowledgements](#-acknowledgements)
 
 ---
 
