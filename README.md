@@ -11,11 +11,11 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [About](##about)
-- [Screenshots](##screenshots)
-- [Features](##features)
+- [About](#about)
+- [Screenshots](#screenshots)
+- [Features](#features)
 - [OOP Concepts](#oop-concepts)
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
