@@ -70,10 +70,10 @@ The system demonstrates the following OOP concepts practically:
 ![Admin Menu](screenshots/AdminMenu.png)
 
 ### Admin View All Rooms
-![Admin View All Rooms](screenshots/AdminViewAllRooms.png)
+![Admin View All Rooms](AdminViewAllRooms(Polymorphism).png)
 
 ### Admin All Bill
-![Admin All Bill](screenshots/AdminAllBill.png)
+![Admin All Bill](screenshots/AdminAllBill(FriendFunction).png)
 
 ### Data Persistence
 ![Data Persistence](screenshots/DataPersistenceTest.mp4)
