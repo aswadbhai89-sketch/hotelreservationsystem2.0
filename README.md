@@ -323,7 +323,8 @@ Program Start
 ## Screenshots
 
 ### Main Screen
-![Main Screen](screenshots/MainScreen.png)
+![Main Screen]<img width="1082" height="631" alt="MainScreen" src="https://github.com/user-attachments/assets/ecd2d5a0-577b-4cb0-b44d-78e185089b76" />
+
 
 ### Guest Login + Welcome
 ![Guest Login + Welcome](screenshots/GuestLogin+Welcome.png)
