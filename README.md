@@ -39,6 +39,44 @@ The system demonstrates the following OOP concepts practically:
 - Operator Overloading, File Handling, Exception Handling, STL
 
 ---
+## Screenshots
+
+### Main Screen
+![Main Screen](screenshots/MainScreen.png)
+
+### Guest Login + Welcome
+![Guest Login Welcome](screenshots/GuestLoginWelcome.png)
+
+### Guest Registration
+![Guest Registration](screenshots/GuestRegistration.png)
+
+### View Available Rooms
+![View Available Rooms](screenshots/ViewAvailableRooms.png)
+
+### Book a Room
+![Book a Room](screenshots/BookARoom.png)
+
+### View Bill
+![View Bill](screenshots/ViewBill.png)
+
+### Pay Bill
+![Pay Bill](screenshots/PayBill.png)
+
+### Admin Login
+![Admin Login](screenshots/AdminLogin.png)
+
+### Admin Menu
+![Admin Menu](screenshots/AdminMenu.png)
+
+### Admin View All Rooms
+![Admin View All Rooms](screenshots/AdminViewAllRooms.png)
+
+### Admin All Bill
+![Admin All Bill](screenshots/AdminAllBill.png)
+
+### Data Persistence
+![Data Persistence](screenshots/DataPersistence.png)
+
 
 ## ✨ Features
 
@@ -320,41 +358,6 @@ Program Start
              ├── Apply Discount
              └── View Records
 
-## Screenshots
-
-### Main Screen
-![Main Screen]<img width="1082" height="631" alt="MainScreen" src="https://github.com/user-attachments/assets/ecd2d5a0-577b-4cb0-b44d-78e185089b76" />
-
-
-### Guest Login + Welcome
-![Guest Login + Welcome](screenshots/GuestLogin+Welcome.png)
-
-### Guest Registration
-![Guest Registration](screenshots/GuestRegistration.png)
-
-### View Available Rooms
-![View Available Rooms](screenshots/ViewAvailableRooms.png)
-
-### Book a Room
-![Book a Room](screenshots/BookaRoom.png)
-
-### View Bill
-![View Bill](screenshots/ViewBill.png)
-
-### Pay Bill
-![Pay Bill](screenshots/paybill.png)
-
-### Admin Login
-![Admin Login](screenshots/AdminLogin.png)
-
-### Admin Menu
-![Admin Menu](screenshots/AdminMenu.png)
-
-### Admin View All Rooms (Polymorphism)
-![Admin View All Rooms (Polymorphism)](<screenshots/AdminViewAllRooms(Polymorphism).png>)
-
-### Admin All Bill (Friend Function)
-![Admin All Bill (Friend Function)](<screenshots/AdminAllBill(FriendFunction).png>)
 
 ### Data Persistence
 [Data Persistence Video](screenshots/DataPersistence.mp4)
