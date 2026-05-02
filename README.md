@@ -97,47 +97,41 @@ The system demonstrates the following OOP concepts practically:
 
 ## 📁 Project Structure
 
-HotelReservationSystem/
-│
-├── main.cpp
-│
-├── Person.h
-├── Person.cpp
-├── Admin.h
-├── Admin.cpp
-├── Guest.h
-├── Guest.cpp
-│
-├── Room.h
-├── Room.cpp
-├── SingleRoom.h
-├── SingleRoom.cpp
-├── DoubleRoom.h
-├── DoubleRoom.cpp
-├── SuiteRoom.h
-├── SuiteRoom.cpp
-│
-├── Booking.h
-├── Booking.cpp
-├── Billing.h
-├── Billing.cpp
-│
-├── Records.h
-├── Records.cpp
-├── FileManager.h
-├── FileManager.cpp
-├── Rules.h
-├── Rules.cpp
-├── HotelException.h
-├── HotelException.cpp
-├── HotelSystem.h
-├── HotelSystem.cpp
-│
-├── guests.txt
-├── rooms.txt
-├── bookings.txt
-├── bills.txt
-└── rules.txt
+HotelReservationSystem
+main.cpp
+Person.h
+Person.cpp
+Admin.h
+Admin.cpp
+Guest.h
+Guest.cpp
+Room.h
+Room.cpp
+SingleRoom.h
+SingleRoom.cpp
+DoubleRoom.h
+DoubleRoom.cpp
+SuiteRoom.h
+SuiteRoom.cpp
+Booking.h
+Booking.cpp
+Billing.h
+Billing.cpp
+Records.h
+Records.cpp
+FileManager.h
+FileManager.cpp
+Rules.h
+Rules.cpp
+HotelException.h
+HotelException.cpp
+HotelSystem.h
+HotelSystem.cpp
+guests.txt
+rooms.txt
+bookings.txt
+bills.txt
+rules.txt
 ---
 ## 🚀 How to Run
 
