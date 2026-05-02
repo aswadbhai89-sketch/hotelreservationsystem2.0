@@ -99,30 +99,45 @@ The system demonstrates the following OOP concepts practically:
 
 HotelReservationSystem/
 │
-├── 📄 main.cpp ← Entry point
+├── main.cpp
 │
-├── 👤 Person.h / Person.cpp ← Abstract base class
-├── 🔐 Admin.h / Admin.cpp ← Inherits Person
-├── 🙋 Guest.h / Guest.cpp ← Inherits Person
+├── Person.h
+├── Person.cpp
+├── Admin.h
+├── Admin.cpp
+├── Guest.h
+├── Guest.cpp
 │
-├── 🏠 Room.h / Room.cpp ← Abstract base class
-├── 🛏️ SingleRoom.h / SingleRoom.cpp ← Inherits Room
-├── 🛏️ DoubleRoom.h / DoubleRoom.cpp ← Inherits Room
-├── 🏰 SuiteRoom.h / SuiteRoom.cpp ← Inherits Room
+├── Room.h
+├── Room.cpp
+├── SingleRoom.h
+├── SingleRoom.cpp
+├── DoubleRoom.h
+├── DoubleRoom.cpp
+├── SuiteRoom.h
+├── SuiteRoom.cpp
 │
-├── 📅 Booking.h / Booking.cpp ← Room reservation
-├── 💰 Billing.h / Billing.cpp ← Bill management + Friend function
-├── 📝 Records.h / Records.cpp ← Activity logs using STL vector
-├── 📂 FileManager.h / FileManager.cpp ← File read/write operations
-├── 📋 Rules.h / Rules.cpp ← Hotel rules management
-├── ⚠️ HotelException.h / .cpp ← Custom exception handling
-├── 🏨 HotelSystem.h / HotelSystem.cpp ← Main system controller
+├── Booking.h
+├── Booking.cpp
+├── Billing.h
+├── Billing.cpp
 │
-├── 📊 guests.txt ← Auto generated
-├── 📊 rooms.txt ← Auto generated
-├── 📊 bookings.txt ← Auto generated
-├── 📊 bills.txt ← Auto generated
-└── 📊 rules.txt ← Auto generated
+├── Records.h
+├── Records.cpp
+├── FileManager.h
+├── FileManager.cpp
+├── Rules.h
+├── Rules.cpp
+├── HotelException.h
+├── HotelException.cpp
+├── HotelSystem.h
+├── HotelSystem.cpp
+│
+├── guests.txt
+├── rooms.txt
+├── bookings.txt
+├── bills.txt
+└── rules.txt
 ---
 ## 🚀 How to Run
 
