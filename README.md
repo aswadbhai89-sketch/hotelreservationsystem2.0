@@ -55,7 +55,7 @@ The system demonstrates the following OOP concepts practically:
 ![View Available Rooms](screenshots/ViewAvailableRooms.png)
 
 ### Book a Room
-![Book a Room](screenshots/BookARoom.png)
+![Book a Room](screenshots/BookaRoom.png)
 
 ### View Bill
 ![View Bill](screenshots/ViewBill.png)
@@ -76,7 +76,7 @@ The system demonstrates the following OOP concepts practically:
 ![Admin All Bill](screenshots/AdminAllBill.png)
 
 ### Data Persistence
-![Data Persistence](screenshots/DataPersistence.png)
+![Data Persistence](screenshots/DataPersistenceTest.mp4)
 
 
 ## ✨ Features
