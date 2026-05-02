@@ -14,7 +14,7 @@
 ## 📋 Table of Contents
 
 - [About](##about)
-- [About](##screenshots)
+- [Screenshots](##screenshots)
 - [Features](##features)
 - [OOP Concepts](#oop-concepts)
 - [Project Structure](#project-structure)
