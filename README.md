@@ -46,7 +46,7 @@ The system demonstrates the following OOP concepts practically:
 ![Main Screen](screenshots/MainScreen.png)
 
 ### Guest Login + Welcome
-![Guest Login Welcome](screenshots/GuestLoginWelcome.png)
+![Guest Login Welcome](screenshots/GuestLogin+Welcome.png)
 
 ### Guest Registration
 ![Guest Registration](screenshots/GuestRegistration.png)
