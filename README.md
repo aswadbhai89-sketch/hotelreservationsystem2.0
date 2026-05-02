@@ -320,6 +320,7 @@ Program Start
              └── View Records
 
 ## Screenshots
+
 ### Main Screen
 ![Main Screen](screenshots/MainScreen.png)
 
@@ -352,6 +353,9 @@ Program Start
 
 ### Admin All Bill (Friend Function)
 ![Admin All Bill (Friend Function)](screenshots/AdminAllBill(FriendFunction).png)
+
+### Data Persistence
+![Persistence](screenshots/AdminDetailedBill(FriendFunction).mp4)
 
 🐛 Known Issues
 Date format is not validated automatically
