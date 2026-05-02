@@ -1,157 +1,307 @@
-# Hotel Reservation System
+# 🏨 Hotel Reservation System
 
-A console-based Hotel Reservation System developed in C++ 
-demonstrating Object-Oriented Programming concepts including 
-inheritance, polymorphism, abstraction, file handling, 
-exception handling, and STL usage.
+> A console-based Hotel Reservation System built in C++ using 
+> Object-Oriented Programming principles.
 
----
-
-## Features
-
-### Guest Portal
-- Register with username and password
-- Login to personal account
-- View available rooms with prices
-- Book rooms online
-- View booking history
-- View and pay bills
-- Update personal information
-- View hotel policies
-
-### Admin Portal
-- Secure admin login
-- Manage guest accounts
-- Manage room inventory
-- Handle check-in and check-out
-- Apply discounts to bills
-- View detailed billing reports
-- Manage hotel rules and policies
-- View system records
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![Concept](https://img.shields.io/badge/Concept-OOP-green)
+![Platform](https://img.shields.io/badge/Platform-Console-lightgrey)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Course](https://img.shields.io/badge/Course-OOP%20CCA%20Project-orange)
 
 ---
 
-## OOP Concepts Implemented
+## 📋 Table of Contents
 
-| Concept | Where Used |
-|---------|-----------|
-| Encapsulation | Private attributes with public getters/setters in all classes |
-| Inheritance | Person → Admin, Guest / Room → Single, Double, Suite |
-| Runtime Polymorphism | displayInfo() and displayRoomInfo() virtual functions |
-| Abstraction | Person and Room are abstract classes |
-| Composition | HotelSystem owns Admin, FileManager, Records |
-| Aggregation | HotelSystem has Guests, Rooms, Bookings, Bills |
-| Friend Functions | generateFinalBill() accessing Booking and Billing |
-| Operator Overloading | Room comparison using ==, >, < operators |
-| File Handling | Data persistence using text files |
-| Exception Handling | Custom HotelException class with try-catch |
-| STL Usage | vector<string> in Records class |
-| Constructors | Default, Parameterized in all classes |
-| Destructors | Virtual destructors with static counter management |
+- [About](#about)
+- [Features](#features)
+- [OOP Concepts](#oop-concepts)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [How to Use](#how-to-use)
+- [Default Data](#default-data)
+- [Technical Details](#technical-details)
+- [Authors](#authors)
 
 ---
 
-## Project Structure
+## 📖 About
+
+This project is a **Hotel Reservation System** developed in **C++** 
+as a Complex Computing Activity (CCA) for the Object-Oriented 
+Programming course. The system simulates real-world hotel operations 
+including guest management, room booking, billing, and administrative 
+control with full data persistence across sessions.
+
+The system demonstrates the following OOP concepts practically:
+- Encapsulation, Inheritance, Polymorphism, Abstraction
+- Composition, Aggregation, Friend Functions
+- Operator Overloading, File Handling, Exception Handling, STL
+
+---
+
+## ✨ Features
+
+### 👤 Guest Portal
+| Feature | Description |
+|---------|-------------|
+| Register | Create account with username and password |
+| Login | Secure login with credentials |
+| View Rooms | Browse available rooms with prices and details |
+| Book Room | Select room type, view available rooms, confirm booking |
+| View Bookings | See all personal booking history |
+| View Bills | Check bill details with tax breakdown |
+| Pay Bill | Pay using Cash, Card, or Online |
+| Update Info | Edit personal information |
+| Hotel Policies | View hotel rules and policies |
+
+### 🔐 Admin Portal
+| Feature | Description |
+|---------|-------------|
+| Secure Login | Protected admin access |
+| Guest Management | View, search, and delete guests |
+| Room Management | View all rooms, add new rooms |
+| Booking Management | Check in, check out, cancel bookings |
+| Billing | View bills, apply discounts, view detailed bills |
+| Rules Management | Add, update, and view hotel rules |
+| Records | View activity logs and generate reports |
+| Change Password | Update admin credentials |
+
+---
+
+## 🧠 OOP Concepts
+
+### Core OOP (5 Credits)
+
+| Concept | Implementation |
+|---------|---------------|
+| **Encapsulation** | All attributes private/protected with public getters and setters. Password has no getter for security. |
+| **Inheritance** | Person → Admin, Guest (Single). Room → SingleRoom, DoubleRoom, SuiteRoom (Hierarchical) |
+| **Runtime Polymorphism** | displayInfo() virtual in Person, overridden in Admin and Guest. displayRoomInfo() virtual in Room, overridden in all room types |
+| **Abstraction** | Person and Room are abstract classes with pure virtual functions. Cannot be instantiated directly |
+| **Composition** | HotelSystem owns Admin, FileManager, and Records as member objects |
+| **Aggregation** | HotelSystem has arrays of Guest, Rooms, Booking, Billing, Rules |
+| **Friend Functions** | generateFinalBill() accesses private data of both Booking and Billing |
+| **Constructors** | Default and Parameterized constructors in all 14 classes |
+| **Destructors** | Virtual destructors with static counter management |
+
+### Additional Requirements (5 Credits)
+
+| Feature | Marks | Status | Implementation |
+|---------|-------|--------|---------------|
+| File Handling | 1 | ✅ Done | 5 text files for persistent storage |
+| Exception Handling | 1 | ✅ Done | Custom HotelException class |
+| STL Usage | 1 | ✅ Done | vector<string> in Records class |
+| GUI Implementation | 1 | ⬜ Future | Console-based currently |
+| Database Connectivity | 1 | ⬜ Future | Text files used currently |
+
+## 📁 Project Structure
+
 HotelReservationSystem/
 │
-├── Person.h / Person.cpp ← Abstract base class
-├── Admin.h / Admin.cpp ← Inherits Person
-├── Guest.h / Guest.cpp ← Inherits Person
-├── Room.h / Room.cpp ← Abstract base class
-├── SingleRoom.h / SingleRoom.cpp ← Inherits Room
-├── DoubleRoom.h / DoubleRoom.cpp ← Inherits Room
-├── SuiteRoom.h / SuiteRoom.cpp ← Inherits Room
-├── Booking.h / Booking.cpp ← Room reservation
-├── Billing.h / Billing.cpp ← Bill management
-├── Records.h / Records.cpp ← Activity logs (STL)
-├── FileManager.h / FileManager.cpp ← File operations
-├── Rules.h / Rules.cpp ← Hotel rules
-├── HotelException.h / .cpp ← Exception handling
-├── HotelSystem.h / HotelSystem.cpp ← Main controller
-└── main.cpp ← Entry point
-
-text
-
-
+├── 📄 main.cpp ← Entry point
+│
+├── 👤 Person.h / Person.cpp ← Abstract base class
+├── 🔐 Admin.h / Admin.cpp ← Inherits Person
+├── 🙋 Guest.h / Guest.cpp ← Inherits Person
+│
+├── 🏠 Room.h / Room.cpp ← Abstract base class
+├── 🛏️ SingleRoom.h / SingleRoom.cpp ← Inherits Room
+├── 🛏️ DoubleRoom.h / DoubleRoom.cpp ← Inherits Room
+├── 🏰 SuiteRoom.h / SuiteRoom.cpp ← Inherits Room
+│
+├── 📅 Booking.h / Booking.cpp ← Room reservation
+├── 💰 Billing.h / Billing.cpp ← Bill management + Friend function
+├── 📝 Records.h / Records.cpp ← Activity logs using STL vector
+├── 📂 FileManager.h / FileManager.cpp ← File read/write operations
+├── 📋 Rules.h / Rules.cpp ← Hotel rules management
+├── ⚠️ HotelException.h / .cpp ← Custom exception handling
+├── 🏨 HotelSystem.h / HotelSystem.cpp ← Main system controller
+│
+├── 📊 guests.txt ← Auto generated
+├── 📊 rooms.txt ← Auto generated
+├── 📊 bookings.txt ← Auto generated
+├── 📊 bills.txt ← Auto generated
+└── 📊 rules.txt ← Auto generated
 ---
+## 🚀 How to Run
 
-## Data Files (Auto Generated)
-guests.txt ← Guest accounts
-rooms.txt ← Room inventory
-bookings.txt ← Booking records
-bills.txt ← Billing records
-rules.txt ← Hotel rules
-
-text
+### Option 1: Dev-C++ (Recommended for beginners)
+Open Dev-C++
+File → New → Project → Console Application → C++
+Project → Add to Project → select all .h and .cpp files
+Execute → Compile and Run (F11)
 
 
----
+### Option 2: Command Line (g++)
 
-## Default Rooms
-
-| Room | Type | Price/Night |
-|------|------|------------|
-| 101, 102 | Single | Rs. 2,000 |
-| 103 | Single | Rs. 2,500 |
-| 201, 202 | Double | Rs. 4,000 |
-| 203 | Double | Rs. 4,500 |
-| 301 | Suite | Rs. 10,000 |
-| 302 | Suite | Rs. 12,000 |
-
----
-
-## Default Admin Credentials
-Username: admin
-Password: 1234
-
-text
-
-
----
-
-## How to Run
-
-### Using Dev-C++
-1. Open Dev-C++
-2. File → New → Project → Console Application
-3. Add all .h and .cpp files to the project
-4. Execute → Compile and Run
-
-### Using g++ (Command Line)
 ```bash
-g++ main.cpp Person.cpp Admin.cpp Guest.cpp Room.cpp \
-SingleRoom.cpp DoubleRoom.cpp SuiteRoom.cpp \
-Booking.cpp Billing.cpp Records.cpp FileManager.cpp \
-Rules.cpp HotelException.cpp HotelSystem.cpp \
--o HotelReservation
+g++ main.cpp Person.cpp Admin.cpp Guest.cpp \
+    Room.cpp SingleRoom.cpp DoubleRoom.cpp SuiteRoom.cpp \
+    Booking.cpp Billing.cpp Records.cpp FileManager.cpp \
+    Rules.cpp HotelException.cpp HotelSystem.cpp \
+    -o HotelReservation
 
+Windows:
+HotelReservation.exe
+
+Linux / Mac:
 ./HotelReservation
-How to Use
+
+1. Install C/C++ extension
+2. Open project folder
+3. Terminal → New Terminal
+4. Run g++ command above
+5. Run the executable
+
+📖 How to Use
 As a Guest
-Select Guest Register and create an account
-Select Guest Login with your credentials
-View available rooms and prices
-Book a room by selecting type and room number
-View your bill and make payment
+Step 1: Select "1. Guest Register"
+        → Create username and password
+        → Enter your details
+
+Step 2: Select "2. Guest Login"
+        → Enter your username and password
+
+Step 3: Select "2. View Available Rooms"
+        → See all available rooms with prices
+
+Step 4: Select "3. Book a Room"
+        → Choose room type (Single/Double/Suite)
+        → Available rooms with prices will be shown
+        → Enter room number from the list
+        → Enter check-in date, check-out date, total days
+        → Booking confirmed, bill auto-generated
+
+Step 5: Select "5. View My Bills"
+        → See your bill with tax breakdown
+
+Step 6: Select "6. Pay Bill"
+        → Your bills will be shown
+        → Enter Bill ID
+        → Choose payment method
+
 As Admin
-Select Admin Login
-Enter username: admin, password: 1234
-Manage guests, rooms, bookings, and billing
-Technical Details
-Language: C++
-Interface: Console based
-Storage: Text files
-Compiler: GCC / TDM-GCC 64-bit
-IDE: Dev-C++ / VS Code / CLion
-Academic Context
-This project was developed as a Complex Computing Activity (CCA)
-for the Object Oriented Programming course, demonstrating
-practical application of OOP principles in a real-world scenario.
+Step 1: Select "3. Admin Login"
+        Username: admin
+        Password: 1234
 
-License
-This project is for educational purposes only.
+Step 2: Navigate menus:
+        1 → Guest Management
+        2 → Room Management
+        3 → Booking Management
+        4 → Billing
+        5 → Rules
+        6 → Records
 
-Authors
-[Member 1 Name] - [Roll Number]
-[Member 2 Name] - [Roll Number]
-[Member 3 Name] - [Roll Number]
+📊 Default Data
+Default Admin Credentials
+Field	Value
+Username	admin
+Password	1234
+Default Rooms
+Room No	Type	Price/Night	Features
+101	Single	Rs. 2,000	Single Bed
+102	Single	Rs. 2,000	Single Bed
+103	Single	Rs. 2,500	Single Bed
+201	Double	Rs. 4,000	Double Bed
+202	Double	Rs. 4,000	Double Bed
+203	Double	Rs. 4,500	Double Bed
+301	Suite	Rs. 10,000	Jacuzzi + Living Room
+302	Suite	Rs. 12,000	Jacuzzi + Living Room
+Data Files (Auto Generated)
+File	Contents
+guests.txt	Guest accounts and credentials
+rooms.txt	Room inventory and availability
+bookings.txt	All booking records
+bills.txt	All billing records
+rules.txt	Hotel rules
+Note: All data files are automatically created when first needed.
+No manual setup required.
+
+🔧 Technical Details
+Detail	Value
+Language	C++
+Standard	C++11 or later
+Interface	Console based
+Storage	Text files (.txt)
+Compiler	GCC / TDM-GCC 64-bit
+IDE	Dev-C++ / VS Code / CLion
+Platform	Windows / Linux / Mac
+Classes	15
+Files	29 source + 5 data
+
+
+🔄 System Flow
+Person (Abstract)
+├── Admin
+└── Guest
+
+Room (Abstract)
+├── SingleRoom
+├── DoubleRoom
+└── SuiteRoom
+
+HotelSystem
+├── owns: Admin, FileManager, Records
+└── has:  Guest[], Rooms[], Booking[], Billing[], Rules[]
+
+Program Start
+     │
+     ├── Guest Register ──► Save to guests.txt
+     │
+     ├── Guest Login ──► Load from guests.txt
+     │       │
+     │       ├── View Available Rooms
+     │       ├── Book Room ──► Save booking + bill
+     │       ├── View Bills
+     │       └── Pay Bill ──► Update bill status
+     │
+     └── Admin Login
+             │
+             ├── Manage Guests
+             ├── Manage Rooms ──► Save to rooms.txt
+             ├── Check In / Check Out
+             ├── Apply Discount
+             └── View Records
+
+🐛 Known Issues
+Date format is not validated automatically
+Total days must be entered manually
+Passwords are stored as plain text
+No session timeout implemented
+
+🔮 Future Enhancements
+ GUI using Qt framework
+ Database integration with SQLite
+ Password encryption
+ Automatic date validation and day calculation
+ Email and SMS notifications
+ Multi-branch hotel support
+ Online booking portal
+ Analytics dashboard
+ Loyalty points system
+
+
+👥 Authors
+Name	Roll Number	Contribution
+[Anus]	[127]	Person, Admin, Guest classes, UML
+[Shehroz Ali Khan]	[143]	Room classes, Booking, Billing, File handling
+[Mukkaram Adil]	[138]	HotelSystem, Records, Rules, Testing, Report
+
+📄 License
+This project is developed for educational purposes only as part of
+an academic assignment. Not intended for commercial use.
+
+🙏 Acknowledgements
+Course instructor for guidance and support
+C++ documentation at cppreference.com
+PlantUML for UML diagram generation
+
+GeeksforGeeks for OOP concept references
+
+Developed with ❤️ using C++ OOP principles
+
+
+
+
