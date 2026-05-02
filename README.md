@@ -126,7 +126,8 @@ The system demonstrates the following OOP concepts practically:
 | 23 | `FileManager.cpp` | FileManager class implementation |
 | 24 | `Rules.h` | Rules class declaration |
 | 25 | `Rules.cpp` | Rules class implementation |
-| 26 | `HotelException.h` | Exception class declaration |
+| 26 | `HotelException.h` | Exception class declaration |<img width="1082" height="631" alt="MainScreen" src="https://github.com/user-attachments/assets/0cbcec0c-9bf0-4e02-8faa-d76dd178ca59" />
+
 | 27 | `HotelException.cpp` | Exception class implementation |
 | 28 | `HotelSystem.h` | HotelSystem class declaration |
 | 29 | `HotelSystem.cpp` | HotelSystem class implementation |
