@@ -349,13 +349,13 @@ Program Start
 ![Admin Menu](screenshots/AdminMenu.png)
 
 ### Admin View All Rooms (Polymorphism)
-![Admin View All Rooms (Polymorphism)](screenshots/AdminViewAllRooms(Polymorphism).png)
+![Admin View All Rooms (Polymorphism)](<screenshots/AdminViewAllRooms(Polymorphism).png>)
 
 ### Admin All Bill (Friend Function)
-![Admin All Bill (Friend Function)](screenshots/AdminAllBill(FriendFunction).png)
+![Admin All Bill (Friend Function)](<screenshots/AdminAllBill(FriendFunction).png>)
 
 ### Data Persistence
-![Persistence](screenshots/AdminDetailedBill(FriendFunction).mp4)
+[Data Persistence Video](screenshots/DataPersistence.mp4)
 
 🐛 Known Issues
 Date format is not validated automatically
