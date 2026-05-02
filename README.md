@@ -97,41 +97,88 @@ The system demonstrates the following OOP concepts practically:
 
 ## 📁 Project Structure
 
-HotelReservationSystem
-main.cpp
-Person.h
-Person.cpp
-Admin.h
-Admin.cpp
-Guest.h
-Guest.cpp
-Room.h
-Room.cpp
-SingleRoom.h
-SingleRoom.cpp
-DoubleRoom.h
-DoubleRoom.cpp
-SuiteRoom.h
-SuiteRoom.cpp
-Booking.h
-Booking.cpp
-Billing.h
-Billing.cpp
-Records.h
-Records.cpp
-FileManager.h
-FileManager.cpp
-Rules.h
-Rules.cpp
-HotelException.h
-HotelException.cpp
-HotelSystem.h
-HotelSystem.cpp
-guests.txt
-rooms.txt
-bookings.txt
-bills.txt
-rules.txt
+Use this **Word-friendly table format**:
+
+## Project Structure
+
+| Sr. No. | File Name | Purpose |
+|--------|-----------|---------|
+| 1 | `main.cpp` | Driver program / entry point |
+| 2 | `Person.h` | Person class declaration |
+| 3 | `Person.cpp` | Person class implementation |
+| 4 | `Admin.h` | Admin class declaration |
+| 5 | `Admin.cpp` | Admin class implementation |
+| 6 | `Guest.h` | Guest class declaration |
+| 7 | `Guest.cpp` | Guest class implementation |
+| 8 | `Room.h` | Room abstract class declaration |
+| 9 | `Room.cpp` | Room abstract class implementation |
+| 10 | `SingleRoom.h` | SingleRoom class declaration |
+| 11 | `SingleRoom.cpp` | SingleRoom class implementation |
+| 12 | `DoubleRoom.h` | DoubleRoom class declaration |
+| 13 | `DoubleRoom.cpp` | DoubleRoom class implementation |
+| 14 | `SuiteRoom.h` | SuiteRoom class declaration |
+| 15 | `SuiteRoom.cpp` | SuiteRoom class implementation |
+| 16 | `Booking.h` | Booking class declaration |
+| 17 | `Booking.cpp` | Booking class implementation |
+| 18 | `Billing.h` | Billing class declaration |
+| 19 | `Billing.cpp` | Billing class implementation |
+| 20 | `Records.h` | Records class declaration |
+| 21 | `Records.cpp` | Records class implementation |
+| 22 | `FileManager.h` | FileManager class declaration |
+| 23 | `FileManager.cpp` | FileManager class implementation |
+| 24 | `Rules.h` | Rules class declaration |
+| 25 | `Rules.cpp` | Rules class implementation |
+| 26 | `HotelException.h` | Exception class declaration |
+| 27 | `HotelException.cpp` | Exception class implementation |
+| 28 | `HotelSystem.h` | HotelSystem class declaration |
+| 29 | `HotelSystem.cpp` | HotelSystem class implementation |
+| 30 | `guests.txt` | Stores guest data |
+| 31 | `rooms.txt` | Stores room data |
+| 32 | `bookings.txt` | Stores booking data |
+| 33 | `bills.txt` | Stores billing data |
+| 34 | `rules.txt` | Stores rules and policies |
+
+### Folder Representation
+
+| Folder / File Structure |
+|-------------------------|
+| `HotelReservationSystem/` |
+| `├── main.cpp` |
+| `├── Person.h` |
+| `├── Person.cpp` |
+| `├── Admin.h` |
+| `├── Admin.cpp` |
+| `├── Guest.h` |
+| `├── Guest.cpp` |
+| `├── Room.h` |
+| `├── Room.cpp` |
+| `├── SingleRoom.h` |
+| `├── SingleRoom.cpp` |
+| `├── DoubleRoom.h` |
+| `├── DoubleRoom.cpp` |
+| `├── SuiteRoom.h` |
+| `├── SuiteRoom.cpp` |
+| `├── Booking.h` |
+| `├── Booking.cpp` |
+| `├── Billing.h` |
+| `├── Billing.cpp` |
+| `├── Records.h` |
+| `├── Records.cpp` |
+| `├── FileManager.h` |
+| `├── FileManager.cpp` |
+| `├── Rules.h` |
+| `├── Rules.cpp` |
+| `├── HotelException.h` |
+| `├── HotelException.cpp` |
+| `├── HotelSystem.h` |
+| `├── HotelSystem.cpp` |
+| `├── guests.txt` |
+| `├── rooms.txt` |
+| `├── bookings.txt` |
+| `├── bills.txt` |
+| `└── rules.txt` |
+
+If you want, I can also give this in **very clean report format paragraph style** ready to paste under heading **“Project Structure”**.
 ---
 ## 🚀 How to Run
 
