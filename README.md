@@ -61,7 +61,7 @@ The system demonstrates the following OOP concepts practically:
 ![View Bill](screenshots/ViewBill.png)
 
 ### Pay Bill
-![Pay Bill](screenshots/PayBill.png)
+![Pay Bill](screenshots/paybill.png)
 
 ### Admin Login
 ![Admin Login](screenshots/AdminLogin.png)
